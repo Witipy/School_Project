@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    .center1 {
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  .center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.w3-btn {width:150px;}
+</style>
+<script>
+  function formSubmit() {
+    document.forms["myForm"].submit();
+}
+</script>
+<body>
+  <div class="center1">
+    <form name="myForm" action="/action_page.php" method="get">
+    
+      <label for="fname">ㅤㅤName</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Password </label>
+      <input type="password" id="lname" name="lname"><br><br>
+          </form>
+  </div>
+<div class="w3-container">
+  <div class="center">
+  <p><button class="w3-button w3-black w3-round-xxlarge">   log in   </button></p>
+</div>
+
+</body>
+</html>
